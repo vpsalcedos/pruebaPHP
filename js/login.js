@@ -15,9 +15,14 @@ function signin()
         {
             window.location.href ='html/artista_inic.html';
             
+        }
+        else if(user == "admin" && password ===user)
+        {
+            window.location.href ='html/admin_inic.html';
         }else{
-           window.location.href ='vabrik.html';
             
+            alert ("Usuario o contraseña incorrecta");
+            window.location.href ='vabrik.html';
         }
         
         
